@@ -834,6 +834,7 @@ header nav ul{
 }
 header nav h1.install{
   position:relative;
+  left:4rem;
   width:7rem;
   padding:5px 7px;
 }
@@ -845,7 +846,7 @@ header nav ul li.git-link i{
   font-size:1.6rem;
   color:#111;
   position:relative;
-  left:50px;
+  left:7rem;
 }
 main{
   width:100%;
@@ -1019,6 +1020,7 @@ header nav ul{
 }
 header nav h1.install{
   position:relative;
+  left:4rem;
   width:6rem;
   padding:7px 8px;
 }
@@ -1030,7 +1032,7 @@ header nav ul li.git-link i{
   font-size:1.4rem;
   color:#111;
   position:relative;
-  left:50px;
+  left:7rem;
 }
 main{
   width:100%;
@@ -1185,6 +1187,7 @@ header nav ul{
 }
 header nav h1.install{
   position:relative;
+  left:3rem;
   width:7rem;
   padding:5px 7px;
 }
@@ -1193,10 +1196,10 @@ header nav h1.install a{
   font-size:.95rem;
 } 
 header nav ul li.git-link i{
-  font-size:1.6rem;
+  font-size:1.5rem;
   color:#111;
   position:relative;
-  left:50px;
+  left:6rem;
 }
 main{
   width:100%;
@@ -1361,18 +1364,18 @@ header nav h1.brand-logo{
   width:60%;
 }
 header nav h1.brand-logo a img{
-  width:60%;
+  width:45%;
 }
 header nav ul{
-  width:30%;
+  width:50%;
   display:flex;
   list-style:none;
   justify-content:space-between;
-  align-items:center;
 }
 header nav h1.install{
   position:relative;
-  width:7rem;
+  left:4rem;
+  width:6rem;
   padding:5px 7px;
 }
 header nav h1.install a{
@@ -1380,10 +1383,10 @@ header nav h1.install a{
   font-size:.9rem;
 } 
 header nav ul li.git-link i{
-  font-size:1.5rem;
+  font-size:1.2rem;
   color:#111;
   position:relative;
-  left:50px;
+  left:7rem;
 }
 main{
   width:100%;
@@ -1557,6 +1560,7 @@ header nav ul{
 header nav h1.install{
   position:relative;
   width:6rem;
+  left:3rem;
   padding:5px 7px;
 }
 header nav h1.install a{
@@ -1567,7 +1571,7 @@ header nav ul li.git-link i{
   font-size:1.3rem;
   color:#111;
   position:relative;
-  left:50px;
+  left:5rem;
 }
 main{
   width:100%;
@@ -1736,6 +1740,7 @@ header nav ul{
 header nav h1.install{
   position:relative;
   width:6rem;
+  left:2rem;
   padding:5px 7px;
 }
 header nav h1.install a{
@@ -1746,7 +1751,7 @@ header nav ul li.git-link i{
   font-size:1.3rem;
   color:#111;
   position:relative;
-  left:50px;
+  left:5rem;
 }
 main{
   width:100%;
