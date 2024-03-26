@@ -709,7 +709,7 @@ div.documentation{
 }
 
 div.documentation h1.install{
-font-size:2rem;
+font-size:2.5rem;
 }
 
 div.footer{
@@ -761,7 +761,7 @@ font-size:1rem;
 }
 
 div.windows h2,div.macos h2,div.linux h2,div.usage h2{
-font-size:1rem;
+font-size:1.4rem;
 }
 
 div.windows pre,div.macos pre,div.linux pre{
@@ -772,7 +772,7 @@ div.windows pre,div.macos pre,div.linux pre{
   margin:10px;
   padding:5px 10px;
   overflow-x:scroll;
-  font-size:1rem;
+  font-size:1.3rem;
 }
 pre i{
 color:#B5C0D0;
@@ -897,6 +897,7 @@ div.documentation{
 
 div.documentation h1.install{
 font-size:2rem;
+text-shadow:1px 2px 1px #F05941;
 }
 
 div.footer{
@@ -1000,7 +1001,7 @@ div.usage pre{
 
 header nav{
   width:100%;
-  height:10vh;
+  height:5vh;
   overflow:hidden;
   display:flex;
   justify-content:space-between;
@@ -1009,6 +1010,9 @@ header nav{
   align-items:center;
 }
 header nav h1.brand-logo{
+  width:60%;
+}
+header nav h1.brand-logo a img{
   width:60%;
 }
 header nav ul{
@@ -1020,38 +1024,41 @@ header nav ul{
 }
 header nav h1.install{
   position:relative;
-  left:4rem;
-  width:6rem;
-  padding:7px 8px;
+  left:3rem;
+  width:7rem;
+  padding:5px 7px;
 }
 header nav h1.install a{
   font-weight:100;
-  font-size:.7rem;
+  font-size:.95rem;
 } 
 header nav ul li.git-link i{
-  font-size:1.4rem;
+  font-size:1.5rem;
   color:#111;
   position:relative;
-  left:7rem;
+  left:6rem;
 }
 main{
   width:100%;
-  height:100%;
+  height:100vh;
   display:flex;
   justify-content:center;
-  align-items:center;
-  padding:1rem 1rem;
+  align-items:flex-start;
+  padding:.4rem .4rem;
+  padding-top:1rem;
 
 }
 main h1.brand-title{
-  letter-spacing:-4px;
+  margin-top:1rem;
+  letter-spacing:-2px;
   word-spacing:.4rem;
-  line-height:3.5rem;
+  line-height:2.5rem;
+  text-shadow:2px 3px 1px #F05941;
   text-align:center;
-  font-size:3.9rem;
+  font-size:2.9rem;
 }
 main h1.brand-title i{
-  font-size:80px;
+  font-size:1.3rem;
   margin-top:2rem;
   display:block;
 }
@@ -1059,28 +1066,33 @@ main h1.brand-title i{
 section{
   width:100%;
   scroll-behavior:smooth;
-  height:310vh;
+  height:100vh;
 }
 section div.image{
   display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:flex-start;
 }
 section div.image img{
-  width:60%;
+  position:relative;
+  top:-44rem;
+  width:90%;
   height:auto;
   border-radius:14px;
 }
 div.documentation{
   width:100%;
+  position:relative;
+  top:-46rem;
 }
 
 div.documentation h1.install{
-font-size:7rem;
+font-size:2rem;
+text-shadow:1px 2px 1px #F05941;
 }
 
 div.footer{
-  height:5vh;
+  height:3vh;
   background-color:#eee;
   display:flex;
   align-items:center;
@@ -1091,26 +1103,28 @@ div.footer{
 }
 div.footer h1.brand-logo{
 width:50%;
+  display:none;
 }
 div.footer h1.brand-logo img
 {
   position:relative;
+  display:none;
   left:15rem;
   width:15%;
   height:auto;
 }
 div.footer h3{
-  width:50%;
+  width:100%;
   text-align:center;
   font-family:monospace;
-  font-size:22px;
+  font-size:12px;
 }
 div.footer div.link{
 width:30%;
 }
 .footer div.link a{
   text-decoration:none;
-  font-size:2rem;
+  font-size:1rem;
   color:#111;
 }
 
@@ -1120,16 +1134,24 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-margin:2rem 0;
+margin:1rem 0;
   font-family:monospace;
-font-size:2rem;
+font-size:1rem;
 }
+
+div.windows h2,div.macos h2,div.linux h2,div.usage h2{
+font-size:1rem;
+}
+
 div.windows pre,div.macos pre,div.linux pre{
-  width:fit-content;
+  width:20rem;
+  text-align:center;
   background-color:#ededed;
   border-radius:10px;
   margin:10px;
-  padding:10px 40px;
+  padding:5px 10px;
+  overflow-x:scroll;
+  font-size:1rem;
 }
 pre i{
 color:#B5C0D0;
@@ -1148,15 +1170,18 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 margin:2rem 0;
-font-size:2rem;
+font-size:1rem;
 }
 div.usage pre{
-  width:fit-content;
+  width:20rem;
+  text-align:center;
   font-family:monospace;
   border-radius:10px;
   background-color:#ededed;
   padding:10px 40px;
   margin:10px;
+  overflow-x:scroll;
+  font-size:1rem;
 }
 }
 
@@ -1216,6 +1241,7 @@ main h1.brand-title{
   letter-spacing:-2px;
   word-spacing:.4rem;
   line-height:2.5rem;
+  text-shadow:2px 3px 1px #F05941;
   text-align:center;
   font-size:2.9rem;
 }
@@ -1250,6 +1276,7 @@ div.documentation{
 
 div.documentation h1.install{
 font-size:2rem;
+text-shadow:1px 2px 1px #F05941;
 }
 
 div.footer{
@@ -1403,6 +1430,7 @@ main h1.brand-title{
   word-spacing:.4rem;
   line-height:2.5rem;
   text-align:center;
+  text-shadow:2px 2px 1px #F05941;
   font-size:2.9rem;
 }
 main h1.brand-title i{
@@ -1436,6 +1464,7 @@ div.documentation{
 
 div.documentation h1.install{
 font-size:2rem;
+text-shadow:1px 2px 1px #F05941;
 }
 
 div.footer{
@@ -1589,6 +1618,7 @@ main h1.brand-title{
   line-height:2.5rem;
   text-align:center;
   font-size:2.9rem;
+  text-shadow:2px 2px 1px #F05941;
 }
 main h1.brand-title i{
   font-size:1.3rem;
@@ -1621,6 +1651,7 @@ div.documentation{
 
 div.documentation h1.install{
 font-size:2rem;
+text-shadow:1px 2px 1px #F05941;
 }
 
 div.footer{
@@ -1717,6 +1748,7 @@ div.usage pre{
 }
 }
 @media screen and (max-width:360px){
+
 header nav{
   width:100%;
   height:7vh;
@@ -1769,6 +1801,7 @@ main h1.brand-title{
   line-height:2.5rem;
   text-align:center;
   font-size:2.9rem;
+  text-shadow:2px 2px 1px #F05941;
 }
 main h1.brand-title i{
   font-size:1.3rem;
@@ -1801,6 +1834,7 @@ div.documentation{
 
 div.documentation h1.install{
 font-size:2rem;
+text-shadow:1px 2px 1px #F05941;
 }
 
 div.footer{
@@ -1895,4 +1929,6 @@ div.usage pre{
   overflow-x:scroll;
   font-size:1rem;
 }
+
+
 }
