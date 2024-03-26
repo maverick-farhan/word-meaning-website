@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Word Meaning | Get meaning directly on your terminal</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon_io/favicon.ico">
-    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -53,8 +53,8 @@
        </div>
 
        <div class="linux">
-         <h2>For Timux</h2>
-         <pre class="code">curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -<i class="fa-solid fa-clipboard"></i></pre>
+         <h2>For Termux</h2>
+         <pre class="code">pkg install nodejs<i class="fa-solid fa-clipboard"></i></pre>
          <pre class="code">npm i npm@latest -g <i class="fa-solid fa-clipboard"></i></pre>
          <pre class="code">npm i word-meaning -g <i class="fa-solid fa-clipboard"></i></pre> 
        </div>
