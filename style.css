@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+--font-text:"Playfair Display", serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+html,body{
+  width:100%;
+  height:100%;
+  font-family:var(--font-text);
+}
+body{
+  background-color:#F5E8C7;
+}
+
+header nav{
+  width:100%;
+  height:10vh;
+  overflow:hidden;
+  display:flex;
+  justify-content:space-between;
+  padding:0 5rem;
+  background-color:#eee;
+  align-items:center;
+}
+.sticky{
+  position:fixed;
+  z-index:10;
+  top:0;
+  width:100%;
+}
+
+header nav h1.brand-logo{
+  width:50%;
+}
+
+header nav h1.brand-logo img{
+  position:relative;
+  width:40%;
+  height:auto;
+} 
+
+header nav ul{
+  display:flex;
+  width:7%;
+  list-style:none;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header nav h1.install{
+  position:relative;
+  left:5%;
+  width:10rem;
+  padding:10px 20px;
+  background-color:#101010;
+  border:1px solid #111;
+  text-align:center;
+  display:flex;
+  border-radius:10px;
+  align-items:center;
+  justify-content:center;
+}
+header nav h1.install:hover{
+  transition:all .4s ease-in-out;
+  box-shadow:3px 4px 0px #F05941;
+}
+header nav h1.install a{
+  color:#fff;
+  font-size:1.4rem;
+  border-radius:5px;
+  text-align:center;
+  text-decoration:none;
+  font-weight:200;
+}
+header nav ul li.git-link{
+  position:relative;
+}
+header nav ul li.git-link i{
+  font-size:1.9rem;
+  color:#111;
+}
+
+main{
+  width:100%;
+  height:90vh;
+  background-color:#F5E8C7;
+  padding:5rem 5rem;
+}
+main h1.brand-title{
+  width:100%;
+  line-height:5.4rem;
+  padding:3rem 0;
+  text-align:center;
+  letter-spacing:-4px;
+  word-spacing:.3rem;
+  position:relative;
+  font-size:7.6rem;
+  color:#111;
+  font-weight:600;
+  text-shadow:3px 4px 1px #F05941;
+  text-transform:lowercase;
+}
+main h1.brand-title i{
+  font-size:40px;
+  margin-top:2rem;
+  display:block;
+}
+section{
+  width:100%;
+  scroll-behavior:smooth;
+  height:230vh;
+}
+section div.image{
+  position:relative;
+  top:-10rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+section div.image img{
+  width:fit-content;
+  border-radius:10px;
+}
+div.documentation{
+  width:100%;
+}
+
+div.documentation h1.install{
+display:flex;
+color:#111;
+font-weight:600;
+text-shadow:3px 4px 1px #F05941;
+text-transform:lowercase;
+margin-top:1rem;
+justify-content:center;
+align-items:center;
+font-size:4rem;
+font-family:monospace;
+  letter-spacing:-4px;
+  word-spacing:.3rem;
+}
+
+div.footer{
+  width:100%;
+  height:10vh;
+  background-color:#eee;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+   left: 0;
+   bottom: 0;
+   position:fixed;
+}
+div.footer h1.brand-logo{
+width:50%;
+}
+div.footer h1.brand-logo img{
+  position:relative;
+  left:15rem;
+  width:25%;
+  height:auto;
+}
+div.footer h3{
+  width:30%;
+  text-align:center;
+  font-family:monospace;
+}
+div.footer div.link{
+width:30%;
+}
+.footer div.link a{
+  text-decoration:none;
+  font-size:2rem;
+  color:#111;
+}
+
+div.windows,div.macos,div.linux{
+  width:100%;
+display:flex;
+flex-direction:column;
+  font-family:monospace;
+justify-content:center;
+align-items:center;
+margin:2rem 0;
+}
+div.windows pre,div.macos pre,div.linux pre{
+  width:fit-content;
+  font-size:1.2rem;
+  background-color:#ededed;
+  border-radius:10px;
+  margin:10px;
+  padding:10px 40px;
+}
+pre i{
+color:#B5C0D0;
+cursor:pointer;
+margin-left:1rem;
+}
+pre i.fa-clipboard:hover{
+  transition:all .2s ease;
+  color:#DFE4F1 ;
+}
+
+div.usage{
+ width:100%; 
+display:flex;
+flex-direction:column;
+justify-content:center;
+  font-family:monospace;
+align-items:center;
+margin:2rem 0;
+}
+div.usage h2{
+padding:1rem;
+}
+div.usage pre{
+  width:fit-content;
+  border-radius:10px;
+  font-size:1.2rem;
+  background-color:#ededed;
+  padding:10px 40px;
+  margin:10px;
+}
+
+.copied{
+  color:#474F7A;
+}
+
+/*Responsive*/
+@media screen and (max-width:425px){
+
+header nav{
+  width:100%;
+  height:10vh;
+  overflow:hidden;
+  display:flex;
+  justify-content:space-between;
+  padding:0 2rem;
+  background-color:#eee;
+  align-items:center;
+}
+header nav h1.brand-logo{
+  width:60%;
+}
+header nav ul{
+  width:30%;
+  display:flex;
+  list-style:none;
+  justify-content:space-between;
+  align-items:center;
+}
+header nav h1.install{
+  position:relative;
+  width:6rem;
+  padding:7px 8px;
+}
+header nav h1.install a{
+  font-weight:100;
+  font-size:1rem;
+} 
+header nav ul li.git-link i{
+  font-size:1.4rem;
+  color:#111;
+  position:relative;
+  left:50px;
+}
+main{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:1rem 1rem;
+
+}
+main h1.brand-title{
+  letter-spacing:-4px;
+  word-spacing:.4rem;
+  line-height:3.5rem;
+  text-align:center;
+  font-size:3.9rem;
+}
+main h1.brand-title i{
+  font-size:80px;
+  margin-top:2rem;
+  display:block;
+}
+
+section{
+  width:100%;
+  scroll-behavior:smooth;
+  height:310vh;
+}
+section div.image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+section div.image img{
+  width:60%;
+  height:auto;
+  border-radius:14px;
+}
+div.documentation{
+  width:100%;
+}
+
+div.documentation h1.install{
+font-size:7rem;
+}
+
+div.footer{
+  height:10vh;
+  background-color:#eee;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+   left: 0;
+   bottom: 0;
+   position:fixed;
+}
+div.footer h1.brand-logo{
+width:50%;
+}
+div.footer h1.brand-logo img
+{
+  position:relative;
+  left:15rem;
+  width:35%;
+  height:auto;
+}
+div.footer h3{
+  width:50%;
+  text-align:center;
+  font-family:monospace;
+  font-size:24px;
+}
+div.footer div.link{
+width:30%;
+}
+.footer div.link a{
+  text-decoration:none;
+  font-size:2rem;
+  color:#111;
+}
+
+div.windows,div.macos,div.linux{
+width:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin:2rem 0;
+  font-family:monospace;
+font-size:2rem;
+}
+div.windows pre,div.macos pre,div.linux pre{
+  width:fit-content;
+  background-color:#ededed;
+  border-radius:10px;
+  margin:10px;
+  padding:10px 40px;
+}
+pre i{
+color:#B5C0D0;
+cursor:pointer;
+margin-left:1rem;
+}
+pre i.fa-clipboard:hover{
+  color:#474F7A;
+  transition:all .2s ease;
+}
+
+div.usage{
+ width:100%; 
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin:2rem 0;
+font-size:2rem;
+}
+div.usage pre{
+  width:fit-content;
+  font-family:monospace;
+  border-radius:10px;
+  background-color:#ededed;
+  padding:10px 40px;
+  margin:10px;
+}
+}
